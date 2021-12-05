@@ -8,7 +8,7 @@ inherit gitpkgv allarch ${PYTHON_PN}native
 PV = "1.0+git${SRCPV}"
 PKGV = "1.0+git${GITPKGV}"
 
-SRCREV = "AUTOINC"
+SRCREV = "${AUTOREV}"
 
 SRC_URI = "git://github.com/Huevos/skin-SimpleGray.git;protocol=https;branch=master"
 
