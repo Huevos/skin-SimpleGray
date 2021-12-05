@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+<!--file added so that changes can be made to enable usage on Vix without changing the main skin -->
+
+	<!--PLI call this screen About -->
+	<screen name="AboutOE" position="center,center" size="830*f,565*f">
+		<panel name="About"/>
+	</screen>
+	
+	<!--PLI call these screens Hotkey -->
+	<screen name="ButtonSetup" position="center,center" size="740*f,565*f">
+		<panel name="HotkeySetup"/>
+	</screen>
+	
+	<screen name="ButtonSetupSelect" position="center,center" size="740*f,565*f">
+		<panel name="HotkeySetupSelect"/>
+	</screen>
+	
+	<!--PLI call this screen GraphMultiEPG -->
+	<screen name="GraphicalEPGPIG" position="center,100*f" size="1190*f,580*f">
+		<panel name="GraphMultiEPG"/>
+		<widget name="bouquetlist" position="425*f,360*f" size="740*f,160*f" font="Regular;18*f" itemHeight="40*f" zPosition="4" transparent="0" scrollbarMode="showOnDemand"/>
+	</screen>
+	
+	<!--PLI call this screen GraphMultiEPGList -->
+	<screen name="GraphicalEPG" position="center,center" size="770*f,526*f">
+		<panel name="GraphMultiEPGList"/>
+	</screen>
+
+</skin>

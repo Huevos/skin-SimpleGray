@@ -1784,4 +1784,6 @@ self.instance.move(ePoint(int((1280 * f - wsizex) / 2), int((740 * f - wsizey) /
 		<ePixmap pixmap="icons/input_info.svg" position="c-27*f,c-60*f" size="53*f,53*f" alphatest="on"/>
 		<widget name="text" position="center,c+5*f" size="720*f,100*f" font="Regular;22*f" halign="center"/>
 	</screen>
+	
+	<include filename="/usr/share/enigma2/SimpleGray-HD/vix_skin.xml"/>
 </skin>
