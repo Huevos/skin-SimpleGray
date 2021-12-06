@@ -32,7 +32,7 @@
 	</screen>
 
 	<!-- Devices -->
-	<screen name="Devices" position="center,center+50*f" size="830*f,600*f">
+	<screen name="Devices" position="center,center+25*f" size="830*f,600*f">
 		<widget source="TunerHeader" render="Label" position="15*f,15*f" size="800*f,33*f" font="Regular;24*f" zPosition="1"/>
 		<widget source="nims" render="Label" position="15*f,60*f" size="800*f,126*f" font="Regular;20*f"/>
 		<widget source="Tuner0" render="Label" position="15*f,60*f" size="800*f,26*f" font="Regular;20*f"/>
