@@ -52,7 +52,7 @@
 
 	<!--from Screens.About -->
 	<screen name="About" position="center,center" size="830*f,565*f">
-		<widget name="AboutScrollLabel" position="15*f,20*f" size="800*f,460*f" font="Regular;20*f" split="1" dividechar=":" colposition="260*f"/>
+		<widget name="AboutScrollLabel" position="15*f,20*f" size="800*f,460*f" font="Regular;20*f" split="1" dividechar=":" colposition="0"/>
 		<panel name="DynamicButtonsTemplate"/>
 	</screen>
 
