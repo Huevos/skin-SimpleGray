@@ -27,4 +27,19 @@
 		<panel name="GraphMultiEPGList"/>
 	</screen>
 
+	<!-- Devices -->
+	<screen name="Devices" position="center,center+50*f" size="830*f,600*f">
+		<widget source="TunerHeader" render="Label" position="15*f,15*f" size="800*f,33*f" font="Regular;24*f" zPosition="1"/>
+		<widget source="nims" render="Label" position="15*f,60*f" size="800*f,126*f" font="Regular;20*f"/>
+		<widget source="Tuner0" render="Label" position="15*f,60*f" size="800*f,26*f" font="Regular;20*f"/>
+		<widget source="Tuner1" render="Label" position="15*f,86*f" size="800*f,26*f" font="Regular;20*f"/>
+		<widget source="Tuner2" render="Label" position="15*f,112*f" size="800*f,26*f" font="Regular;20*f"/>
+		<widget source="Tuner3" render="Label" position="15*f,138*f" size="800*f,46*f" font="Regular;20*f"/>
+		<widget source="HDDHeader" render="Label" position="15*f,200*f" size="800*f,33*f" font="Regular;24*f"/>
+		<widget source="hdd" render="Label" position="15*f,243*f" size="800*f,133*f" font="Regular;20*f"/>
+		<widget source="MountsHeader" render="Label" position="15*f,380*f" size="800*f,33*f" font="Regular;24*f"/>
+		<widget source="mounts" render="Label" position="15*f,418*f" size="800*f,127*f" font="Regular;20*f"/>
+		<panel name="DynamicButtonsTemplate"/>
+	</screen>
+
 </skin>
