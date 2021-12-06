@@ -46,4 +46,15 @@
 		<panel name="DynamicButtonsTemplate"/>
 	</screen>
 
+	<!-- SystemNetworkInfo -->
+	<screen name="SystemNetworkInfo" position="center,center+25*f" size="830*f,600*f">
+		<widget name="AboutScrollLabel" position="15*f,20*f" size="800*f,400*f" font="Regular;20*f" split="1" dividechar=":" colposition="0"/>
+		<widget source="IFtext" render="Label" position="15*f,450*f" size="100*f,24*f" font="Regular;20*f" zPosition="10" halign="right"/>
+		<widget source="IF" render="Label" position="125*f,450*f" size="600*f,24*f" font="Regular;20*f" zPosition="10" halign="left"/>
+		<widget source="Statustext" render="Label" position="15*f,490*f" size="100*f,24*f" font="Regular;20*f" zPosition="10" halign="right"/>
+		<widget name="statuspic" pixmaps="icons/lock_on.svg,icons/lock_on.svg" position="125*f,488*f" size="25*f,24*f" zPosition="10" alphatest="blend"/>
+		<widget name="devicepic" pixmaps="icons/network_wired.png,icons/network_wireless.png" position="160*f,484*f" size="36*f,36*f" zPosition="10" alphatest="blend"/>
+		<panel name="DynamicButtonsTemplate"/>
+	</screen>
+
 </skin>
