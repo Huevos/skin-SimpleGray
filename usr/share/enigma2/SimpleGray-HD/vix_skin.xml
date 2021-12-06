@@ -7,6 +7,10 @@
 		<panel name="About"/>
 	</screen>
 	
+	<screen name="SystemMemoryInfo" position="center,center" size="830*f,565*f">
+		<panel name="About"/>
+	</screen>
+	
 	<!--PLI call these screens Hotkey -->
 	<screen name="ButtonSetup" position="center,center" size="740*f,565*f">
 		<panel name="HotkeySetup"/>
