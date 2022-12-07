@@ -331,11 +331,11 @@ self.instance.resize(eSize(*(int(wsizex), int(wsizey))))
 	</screen>
 
 	<screen name="RCTemplate">
-		<widget name="rc" position="15,15" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="on"/>
-		<widget name="arrowdown" pixmap="skin_default/arrowdown.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="on"/>
-		<widget name="arrowdown2" pixmap="skin_default/arrowdown.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="on"/>
-		<widget name="arrowup" pixmap="skin_default/arrowup.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="on"/>
-		<widget name="arrowup2" pixmap="skin_default/arrowup.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="on"/>
+		<widget name="rc" position="15,15" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" backgroundColor="back" transparent="1"/>
+		<widget name="arrowdown" pixmap="skin_default/arrowdown.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="blend"/>
+		<widget name="arrowdown2" pixmap="skin_default/arrowdown.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="blend"/>
+		<widget name="arrowup" pixmap="skin_default/arrowup.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="blend"/>
+		<widget name="arrowup2" pixmap="skin_default/arrowup.svg" position="0,0" zPosition="1" size="37,70" transparent="1" alphatest="blend"/>
 	</screen>
 
 	<screen name="ScanStatusTemplate">
