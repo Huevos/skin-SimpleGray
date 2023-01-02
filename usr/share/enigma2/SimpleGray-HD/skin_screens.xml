@@ -647,9 +647,9 @@ self.instance.move(ePoint(int((1280 * f - wsizex) / 2), int((740 * f - wsizey) /
 		<panel name="RCTemplate"/>
 		<widget name="list" conditional="arrowdown" position="170,15*f" size="e-140-40*f,480*f" scrollbarMode="showOnDemand" itemHeight="30*f" font="Regular;20*f"/>
 		<widget name="long_key" conditional="arrowdown" position="170,510*f" size="e-140-40*f,30*f" font="Regular;18*f" foregroundColor="yellow" valign="center"/>
-		<widget name="longshift_key0" conditional="indicator_u0" position="170,500*f" size="e-140-40*f,30*f" font="Regular;18*f" foregroundColor="yellow" valign="center"/>
-		<widget name="longshift_key1" conditional="indicator_u0" position="170,535*f" size="e-140-40*f,30*f" font="Regular;18*f" foregroundColor="yellow" valign="center"/>
-		<widget source="list" conditional="indicator_u0" render="Listbox"  position="170,15*f" size="e-140-40*f,480*f" transparent="0" scrollbarMode="showOnDemand">
+		<widget name="longshift_key0" conditional="indicatorU0" position="170,500*f" size="e-140-40*f,30*f" font="Regular;18*f" foregroundColor="yellow" valign="center"/>
+		<widget name="longshift_key1" conditional="indicatorU0" position="170,535*f" size="e-140-40*f,30*f" font="Regular;18*f" foregroundColor="yellow" valign="center"/>
+		<widget source="list" conditional="indicatorU0" render="Listbox"  position="170,15*f" size="e-140-40*f,480*f" transparent="0" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{
 				  "templates": dict(
