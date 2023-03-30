@@ -728,8 +728,8 @@ self.instance.move(ePoint(int((1280 * f - wsizex) / 2), int((740 * f - wsizey) /
 		<panel name="DynamicButtonsTemplate"/>
 	</screen>
 
-	<!--from Screens.Opkg -->
-	<screen name="Opkg" position="center,center" size="620*f,200*f">
+	<!--from Screens.Opkg-->
+	<screen name="Opkg" position="center,center" size="620*f,240*f">
 		<panel name="IpkDownloadTemplate"/>
 	</screen>
 
@@ -1647,8 +1647,8 @@ self.instance.move(ePoint(int((1280 * f - wsizex) / 2), int((740 * f - wsizey) /
 		<widget name="UnhandledKeyPixmap" pixmap="skin_default/unhandled_key.svg" position="0,0" size="55*f,55*f"/>
 	</screen>
 
-	<!--from Screens.SoftwareUpdate -->
-	<screen name="UpdatePlugin" position="center,center" size="620*f,200*f">
+	<!--from Screens.SoftwareUpdate-->
+	<screen name="UpdatePlugin" position="center,center" size="620*f,240*f">
 		<panel name="IpkDownloadTemplate"/>
 	</screen>
 
